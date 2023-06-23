@@ -23,8 +23,8 @@
 }
 
 a {
-  text-decoration: none; /* Remove underline */
-  color: inherit; /* Inherit color from parent element */
+  text-decoration: none; 
+  color: inherit; 
 }
 
 .rainbow-button {
@@ -101,8 +101,6 @@ a {
   background-color: black;
   display:grid;
   grid-template-rows: 1fr 11fr;
-  /* background-image: url("https://img.freepik.com/premium-photo/galaxy-stars-planets-star-clusters-colored-gas-clouds-abstract-space-galaxy-space-background-universe-sky-nebula-night-purple-cosmos-blue-abstract-galaxy-infinite-future-dark-deep-light-3d-render_91497-8578.jpg");
-  background-position:center; */
 }
 
 .introduction-info-holder {
@@ -284,10 +282,30 @@ a {
   font-weight:600;
   font-size:1.5vw;
   padding-top:1vh;
+  text-shadow: 0px 0px 25px black;
 }
 
 .technologies-skill-holder {
   grid-column: 2/3;
 }
 
+@media (max-width: 600px) {
+  .skills--wrapper {
+    grid-template-columns:100%;
+    display:flex;
+    flex-direction:column;
+  }
+
+  .about--wrapper {
+    padding: 3em 0em 5em 0em;
+  }
+
+  .introduction--wrapper {
+    height:400px;
+    background-color: black;
+    display:grid;
+    grid-template-rows: 1fr 11fr;
+  }
+
+}
 
