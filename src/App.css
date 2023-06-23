@@ -2,6 +2,12 @@
 
 :root {
   --primary-font: 'Montserrat', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+}
+
+/* This class just makes anything with it have a certain color*/
+.tc {
+  color: rgb(38, 125, 132);
 }
 
 a {
@@ -28,17 +34,30 @@ a {
 
 .header--wrapper {
   position:fixed;
-  background-color:black;
+  background-color:transparent;
   width:100%;
   padding:1em;
   display:flex;
   justify-content: space-between;
 }
 
+@keyframes slideIn {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 .header--wrapper.scrolled {
   background-color: black;
   box-shadow: 0 0px 42px rgba(33, 140, 194, 0.2);
   border-bottom: 1px solid rgb(56, 56, 56);
+  animation: slideIn 0.35s ease-in-out forwards;
 }
 
 .header-item {
@@ -65,6 +84,69 @@ a {
 }
 
 .introduction--wrapper {
-  height:1500px;
+  height:600px;
   background-color: black;
+  display:grid;
+  grid-template-rows: 1fr 11fr;
+  /* background-image: url("https://img.freepik.com/premium-photo/galaxy-stars-planets-star-clusters-colored-gas-clouds-abstract-space-galaxy-space-background-universe-sky-nebula-night-purple-cosmos-blue-abstract-galaxy-infinite-future-dark-deep-light-3d-render_91497-8578.jpg");
+  background-position:center; */
+}
+
+.introduction-info-holder {
+  grid-row: 2 / 3;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  flex-direction: column;
+  gap: 2em 0em;
+}
+
+.intro--title {
+  font-size: calc(10px + 5vw);
+  font-family:var(--primary-font);
+}
+
+.intro--subtitle {
+  font-size: calc(10px + 1vw);
+  font-family:var(--primary-font);
+  text-align:center;
+}
+
+.intro-button-holder {
+  max-width:50%;
+  display:flex;
+  gap: 0em 2em;
+}
+
+.intro--button {
+  font-family: var(--secondary-font);
+  padding: 1vh;
+  font-size: 3vh;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 1vh;
+  border: none;
+  color: black;
+  box-shadow: 0px 0px 20px -7px white;
+  transition: box-shadow 0.3s ease;
+}
+
+@media (max-width: 500px) {
+  .intro-button-holder {
+    gap:1vh;
+  }
+
+  .intro--button {
+    font-size:calc(10px + 1vh);
+    
+  }
+}
+
+.intro--button:hover {
+  box-shadow: 0px 0px 30px -5px white;
+}
+
+.intro--button:active {
+  transform: scale(1.05);
 }
