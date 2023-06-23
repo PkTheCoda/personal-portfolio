@@ -22,11 +22,11 @@ function Header() {
 
     return (
         <header className={`header--wrapper ${scrolled ? "scrolled" : ""}`}>
-            <h3 className="header--name header-item">Pranav Konjeti</h3>
+            <h3 className="header--name header-item hover-underline-animation">Pranav Konjeti</h3>
             <div className="header-nav-wrapper header-item">
-                <a href="#portfolio" className="nav-item">Portfolio</a>
-                <a href="#about" className="nav-item">About</a>
-                <a href="#contact" className="nav-item">Contact</a>
+                <a href="#portfolio" className="nav-item hover-underline-animation">Portfolio</a>
+                <a href="#about" className="nav-item hover-underline-animation">About</a>
+                <a href="#contact" className="nav-item hover-underline-animation">Contact</a>
             </div>
         </header>
     )

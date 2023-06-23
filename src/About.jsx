@@ -4,7 +4,7 @@ function About() {
     return (
         <section className="about--wrapper" id="about">
             <div className="about-details-wrapper">
-                <h1 className="about-title"> <span className="checkpoint-num">01</span> About Me</h1>
+                <h1 className="about-title hover-underline-animation"> <span className="checkpoint-num">01</span> About Me</h1>
 
 
                 <p className="about-description">
