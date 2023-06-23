@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit&display=swap');
 
 :root {
   --primary-font: 'Montserrat', sans-serif;
-  --secondary-font: 'Raleway', sans-serif;
+  --secondary-font: 'Outfit', sans-serif;
 }
 
 /* This class just makes anything with it have a certain color*/
