@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
     return (
-        <section className="about--wrapper" id="#about">
+        <section className="about--wrapper" id="about">
             <div className="about-details-wrapper">
                 <h1 className="about-title"> <span className="checkpoint-num">01</span> About Me</h1>
 

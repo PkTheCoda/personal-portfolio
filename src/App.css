@@ -16,6 +16,12 @@
   text-shadow: 0px 0px 20px yellow, 0px 0px 20px yellow;
 }
 
+.skills-checkpoint {
+  font-size:2vh;
+  color:grey;
+  text-shadow: 0px 0px 20px grey, 0px 0px 20px grey, 0px 0px 20px grey;
+}
+
 a {
   text-decoration: none; /* Remove underline */
   color: inherit; /* Inherit color from parent element */
@@ -214,13 +220,74 @@ a {
 }
 
 .skills--wrapper {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
   height:max-content;
-  padding:1em 0em 1em 3em;
   background-color: black;
 }
 
 .skills--title {
+  background-color: black;
   color:white;
   font-size:calc(10px + 2vw);
   font-family:var(--primary-font);
+  text-align: center;
 }
+
+.skills-holder {
+  margin-top:3em;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap:wrap;
+  gap: 1em 1em;
+}
+
+.language-skill-holder {
+  grid-column: 0 / 1;
+
+}
+
+.skills-inner-title {
+  color:white;
+  font-size:calc(10px + 1.5vw);
+  font-family:var(--primary-font);
+}
+
+.img-holder {
+  width:100%;
+  height:max-content;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2em 0em;
+}
+
+.image-items {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.img-holder > .image-items {
+  width:35%;
+  padding:1vh 2vh 1vh 2vh;
+  background-color:rgb(244, 238, 238);
+  box-shadow: 0px 0px 10px -1px white;
+  border-radius:2vh;
+}
+
+.image-subtitle {
+  font-family:var(--secondary-font);
+  font-weight:600;
+  font-size:1.5vw;
+  padding-top:1vh;
+}
+
+.technologies-skill-holder {
+  grid-column: 2/3;
+}
+
+
