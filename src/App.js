@@ -1,11 +1,12 @@
 import './App.css';
 import Introduction from './Introduction';
-import Header from './Header';
+import About from './About';
 
 function App() {
   return (
     <>
       <Introduction />
+      <About />
     </>
   );
 }
