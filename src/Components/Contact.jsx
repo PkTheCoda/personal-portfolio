@@ -10,7 +10,7 @@ function Contact() {
                 <h2 className="contact-title-text">
                 I'd love to get in contact with you! Whether you just want to discuss something, 
                 build a project together, or something else, I'm always available for contact!
-                I'll normally get back to you within 24 hours.
+                I'll normally get back to you within 24 hours!
                 </h2>                   
                 <div className="image-icon-items"> 
                     <a href="https://github.com/PkTheCoda">
