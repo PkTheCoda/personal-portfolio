@@ -60,18 +60,6 @@ a {
   z-index: 999;
 }
 
-@keyframes slideIn {
-  from {
-    transform: translateY(-100%);
-    opacity: 0;
-  }
-
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
 .header--wrapper.scrolled {
   background-color: black;
   box-shadow: 0 0px 42px rgba(33, 140, 194, 0.2);
@@ -111,12 +99,27 @@ a {
 
 .introduction-info-holder {
   grid-row: 2 / 3;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  color:white;
+  color: white;
   flex-direction: column;
   gap: 2em 0em;
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .intro--title {
@@ -284,6 +287,11 @@ a {
   background-color:rgb(244, 238, 238);
   box-shadow: 0px 0px 10px -1px white;
   border-radius:2vh;
+}
+
+.img-holder > .image-items:hover {
+  transform:scale(1.05);
+  box-shadow: 0px 0px 10px -1px white, 0px 0px 10px -1px white;
 }
 
 .image-subtitle {
