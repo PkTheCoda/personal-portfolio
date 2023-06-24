@@ -156,9 +156,9 @@ function Projects() {
             </section>
             
             <div className="end-project-holder">
-                    <h1 className="end-project-title"><span className="projects-checkpoint">05</span> Oh, this entire website was also handcoded by me!</h1>
+                    <h1 className="end-project-title"><span className="projects-checkpoint">05</span> Oh, and don't forget this entire site - handcoded by me!</h1>
                     <button className="project-repo pbutton hover-underline-animation">
-                                <a href="https://github.com/PkTheCoda/personal-portfolio">View The Code <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+                                <a href="https://github.com/PkTheCoda/personal-portfolio">View its Code <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
                     </button>
             </div>
         </>
