@@ -1,7 +1,8 @@
 import './App.css';
-import Introduction from './Introduction';
-import About from './About';
-import Skills from './Skills';
+import Introduction from './Components/Introduction';
+import About from './Components/About';
+import Skills from './Components/Skills';
+import Projects from './Components/Projects';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Introduction />
       <About />
       <Skills />
+      <Projects />
     </>
   );
 }
