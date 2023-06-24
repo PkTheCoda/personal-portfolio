@@ -29,7 +29,7 @@ function About() {
             </div>
 
             <div className="about-image-holder">
-                <img className="about-image" src="https://mail.google.com/mail/u/0?ui=2&ik=9317aff34c&attid=0.1.1&permmsgid=msg-f:1769539555192333719&th=188eaad99b3de597&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ8DYXN8XVv_rt_xUgtNvjZ1OIOXAlE3g77K5VnsASoTuQ8ykYDuI6UTDqWdPfNSXmakVJpzPDQubMqIOpuRlv4PG7gUF1MG9gbXSbeepHNEBFBkoYkuCRCd5Zo&disp=emb" alt="Image of me (Pranav!)" />
+                <img className="about-image" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" alt="Image of me (Pranav!)" />
             </div>
         </section>
     ) 
