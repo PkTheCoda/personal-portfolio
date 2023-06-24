@@ -34,8 +34,7 @@ function Projects() {
                         </div>
 
                         <div className="project-buttons-holder">
-                            <button className="project-live pbutton hover-underline-animation">Live Preview <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></button>
-                            <button className="project-repo pbutton hover-underline-animation">View Code <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></button>
+                            <button className="project-live pbutton hover-underline-animation"><a href="https://learntheweb.org" target="_blank">Live Preview <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a></button>
                         </div>
                     </div>
 
@@ -68,8 +67,13 @@ function Projects() {
                         </div>
 
                         <div className="project-buttons-holder">
-                            <button className="project-live pbutton hover-underline-animation">Live Preview <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></button>
-                            <button className="project-repo pbutton hover-underline-animation">View Code <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></button>
+                            <button className="project-live pbutton hover-underline-animation">
+                                <a href="https://ecommerce-app-git-master-pkthecoda.vercel.app/" target="_blank">Live Preview <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+                            </button>
+
+                            <button className="project-repo pbutton hover-underline-animation">
+                                <a href="https://github.com/PkTheCoda/ecommerce-app" target="_blank">View Code <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+                            </button>
                         </div>
                     </div>
 
@@ -102,8 +106,12 @@ function Projects() {
                         </div>
 
                         <div className="project-buttons-holder">
-                            <button className="project-live pbutton hover-underline-animation">Live Preview <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></button>
-                            <button className="project-repo pbutton hover-underline-animation">View Code <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></button>
+                            <button className="project-live pbutton hover-underline-animation">
+                                <a href="https://memory-card-game-kc5vdmlo7-pkthecoda.vercel.app/" target="_blank">Live Preview <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+                            </button>
+                            <button className="project-repo pbutton hover-underline-animation">
+                                <a href="https://github.com/PkTheCoda/memory-card-game" target="_blank">View Code <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+                            </button>
                         </div>
                     </div>
 
@@ -135,14 +143,24 @@ function Projects() {
                         </div>
 
                         <div className="project-buttons-holder">
-                            <button className="project-live pbutton hover-underline-animation">Live Preview <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></button>
-                            <button className="project-repo pbutton hover-underline-animation">View Code <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></button>
+                            <button className="project-live pbutton hover-underline-animation">
+                                <a href="https://stackblitz-starters-poqhpv.stackblitz.io/">Live Preview <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+                            </button>
+                            <button className="project-repo pbutton hover-underline-animation">
+                                <a href="https://github.com/PkTheCoda/resume-maker">View Code <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+                            </button>
                         </div>
                     </div>
-
                 </div>
 
             </section>
+            
+            <div className="end-project-holder">
+                    <h1 className="end-project-title"><span className="projects-checkpoint">05</span> Oh, this entire website was also handcoded by me!</h1>
+                    <button className="project-repo pbutton hover-underline-animation">
+                                <a href="https://github.com/PkTheCoda/personal-portfolio">View The Code <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+                    </button>
+            </div>
         </>
     )
 }
