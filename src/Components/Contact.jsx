@@ -13,15 +13,15 @@ function Contact() {
                 I'll normally get back to you within 24 hours!
                 </h2>                   
                 <div className="image-icon-items"> 
-                    <a href="https://github.com/PkTheCoda">
+                    <a href="https://github.com/PkTheCoda" target="_blank">
                         <img className="icon-img" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="image of github logo" />
                     </a>         
 
-                    <a href="https://www.linkedin.com/in/pranav-konjeti-0ba48a25b/">
+                    <a href="https://www.linkedin.com/in/pranav-konjeti-0ba48a25b/" target="_blank">
                     <img className="icon-img" src="https://logodix.com/logo/79688.ico" alt="image of linkedin logo" />
                     </a>   
 
-                    <a href="mailto:pranavkonjeti@gmail.com">
+                    <a href="mailto:pranavkonjeti@gmail.com" target="_blank">
                         <img className="icon-img" src="https://static.vecteezy.com/system/resources/previews/020/169/233/original/envelope-icon-email-or-incoming-message-mail-icon-for-web-computer-and-mobile-app-message-envelope-line-art-icon-for-apps-and-websites-free-vector.jpg" alt="email icon" />
                     </a>                             
                 </div>                        
