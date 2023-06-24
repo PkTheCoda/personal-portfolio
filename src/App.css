@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit&family=Raleway&display=swap');
 :root {
-  --primary-font: 'Montserrat', 'Raleway';
+  --primary-font: 'Montserrat', 'Outfit';
   --secondary-font: 'Outfit', sans-serif;
   --buttonp-font: font-family: 'Raleway', sans-serif;
 }
