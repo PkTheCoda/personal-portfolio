@@ -6,7 +6,7 @@ function Contact() {
     return (
         <>
             <h1 className="projects--title"> <span className="checkpoint-num">04</span> Let's get <span className="tc">in Touch</span></h1>
-            <section className="contact--wrapper">
+            <section className="contact--wrapper" id="contact">
                 <h2 className="contact-title-text">
                 I'd love to get in contact with you! Whether you just want to discuss something, 
                 build a project together, or something else, I'm always available for contact!

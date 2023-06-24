@@ -7,7 +7,7 @@ function Projects() {
     return (
         <>
             <h1 className="projects--title"> <span className="checkpoint-num">03</span> My <span className="tc">Projects</span></h1>
-            <section className="projects--wrapper">
+            <section className="projects--wrapper" id="projects">
                 <div className="project1-holder">
                     <div className="project-image-holder">
                         <div className="project-titles">
