@@ -158,7 +158,7 @@ function Projects() {
             <div className="end-project-holder">
                     <h1 className="end-project-title"><span className="projects-checkpoint">05</span> Oh, and don't forget this entire site - handcoded by me!</h1>
                     <button className="project-repo pbutton hover-underline-animation">
-                                <a href="https://github.com/PkTheCoda/personal-portfolio">View its Code <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+                                <a href="https://github.com/PkTheCoda/personal-portfolio" className="website-repo">View its Code <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
                     </button>
             </div>
         </>
