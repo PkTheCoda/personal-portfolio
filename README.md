@@ -1,5 +1,5 @@
 # Pranav's Personal Portfolio
-<h1><a href="https://pranavk.vercel.app">My Portfolio Live</a></h1>
+<h1><a href="https://pranavk.vercel.app" target="_blank">My Portfolio Live</a></h1>
 
 Some nice pictures of it incase you're not able to open the actual site:
 
