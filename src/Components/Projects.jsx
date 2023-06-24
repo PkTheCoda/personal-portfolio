@@ -1,11 +1,148 @@
 import React from "react";
+import project1 from '../../src/Components/images/project1.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 
 function Projects() {
     return (
         <>
             <h1 className="projects--title"> <span className="checkpoint-num">03</span> My <span className="tc">Projects</span></h1>
             <section className="projects--wrapper">
-                
+                <div className="project1-holder">
+                    <div className="project-image-holder">
+                        <div className="project-titles">
+                            <h1 className="project-img-title"><span className="projects-checkpoint">01</span> learntheweb.org</h1>
+                            <h1 className="project-img-subtitle">Online Computer Science Nonprofit</h1>
+                        </div>
+                        <img src={project1} alt="Image of my first project" />
+                    </div>
+
+                    <div className="project-details-holder">
+                        <div className="project-summary-holder">
+                            <div className="projects-summary-title">Summary</div>
+                            <div className="projects-summary-text">
+                                <span className="tc">learntheweb.org</span> is a free online learning platform designed to make coding 
+                                easy and accessible to people of all ages and backgrounds. Learntheweb uses features like <span className="tc">content-rich 
+                                lessons, live workshops, and interactive projects</span> to help you better understand how to program! The website is built
+                                with a wordpress front-end, along with PHP and CSS
+                            </div>
+                        </div>
+
+                        <div className="builtwith-holder">
+                            Technologies Used
+                            <div className="builtwith-technologies">Wordpress, HTML, CSS, PHP</div>
+                        </div>
+
+                        <div className="project-buttons-holder">
+                            <button className="project-live pbutton hover-underline-animation">Live Preview <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></button>
+                            <button className="project-repo pbutton hover-underline-animation">View Code <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className="project2-holder">
+
+                    <div className="project-image-holder">
+                        <div className="project-titles">
+                            <h1 className="project-img-title"><span className="projects-checkpoint">02</span> Urban Escape</h1>
+                            <h1 className="project-img-subtitle">Mock Ecommerce Platform</h1>
+                        </div>
+                        <img src="https://user-images.githubusercontent.com/107774675/247635446-8786607a-6ebf-4d9b-9284-b1e6b67a0bdf.png" alt="Image of my first project" />
+                    </div>
+
+                    <div className="project-details-holder">
+                        <div className="project-summary-holder">
+                            <div className="projects-summary-title">Summary</div>
+                            <div className="projects-summary-text">
+                                <span className="tc">Urban Escape</span> is a mock front-end furniture store built primarily with  
+                                <span className="tc"> React, React Router, and CSS</span>. The website uses Firebase as a back-end allowing
+                                users to sign in and save their preferences/data. The store allows users to browse, add, and remove items
+                                from their cart. 
+                            </div>
+                        </div>
+
+                        <div className="builtwith-holder">
+                            Technologies Used
+                            <div className="builtwith-technologies">HTML, CSS, JS, ReactJS, React Router, Firebase</div>
+                        </div>
+
+                        <div className="project-buttons-holder">
+                            <button className="project-live pbutton hover-underline-animation">Live Preview <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></button>
+                            <button className="project-repo pbutton hover-underline-animation">View Code <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className="project3-holder">
+
+                    <div className="project-image-holder">
+                        <div className="project-titles">
+                            <h1 className="project-img-title"><span className="projects-checkpoint">03</span> Memory Game</h1>
+                            <h1 className="project-img-subtitle">Simple Front-end Memory Game</h1>
+                        </div>
+                        <img src="https://user-images.githubusercontent.com/107774675/248482996-6cc87a26-5d6a-4ed5-af71-78800edbf00b.png" alt="Image of my first project" />
+                    </div>
+
+                    <div className="project-details-holder">
+                        <div className="project-summary-holder">
+                            <div className="projects-summary-title">Summary</div>
+                            <div className="projects-summary-text">
+                                <span className="tc">Urban Escape</span> is a mock front-end furniture store built primarily with  
+                                <span className="tc"> React, React Router, and CSS</span>. The website uses Firebase as a back-end allowing
+                                users to sign in and save their preferences/data. The store allows users to browse, add, and remove items
+                                from their cart. 
+                            </div>
+                        </div>
+
+                        <div className="builtwith-holder">
+                            Technologies Used
+                            <div className="builtwith-technologies">HTML, CSS, JS, ReactJS, React Router, Firebase</div>
+                        </div>
+
+                        <div className="project-buttons-holder">
+                            <button className="project-live pbutton hover-underline-animation">Live Preview <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></button>
+                            <button className="project-repo pbutton hover-underline-animation">View Code <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className="project4-holder">
+
+                    <div className="project-image-holder">
+                        <div className="project-titles">
+                            <h1 className="project-img-title"><span className="projects-checkpoint">04</span> Resume Maker</h1>
+                            <h1 className="project-img-subtitle">Front-end Resume Generator</h1>
+                        </div>
+                        <img src="https://user-images.githubusercontent.com/107774675/246527940-26c9d3d5-2c08-4dbc-b51c-0146b1293f84.png" alt="Image of my first project" />
+                    </div>
+
+                    <div className="project-details-holder">
+                        <div className="project-summary-holder">
+                            <div className="projects-summary-title">Summary</div>
+                            <div className="projects-summary-text">
+                                <span className="tc">Urban Escape</span> is a mock front-end furniture store built primarily with  
+                                <span className="tc"> React, React Router, and CSS</span>. The website uses Firebase as a back-end allowing
+                                users to sign in and save their preferences/data. The store allows users to browse, add, and remove items
+                                from their cart. 
+                            </div>
+                        </div>
+
+                        <div className="builtwith-holder">
+                            Technologies Used
+                            <div className="builtwith-technologies">HTML, CSS, JS, ReactJS, React Router, Firebase</div>
+                        </div>
+
+                        <div className="project-buttons-holder">
+                            <button className="project-live pbutton hover-underline-animation">Live Preview <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></button>
+                            <button className="project-repo pbutton hover-underline-animation">View Code <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></button>
+                        </div>
+                    </div>
+
+                </div>
+
             </section>
         </>
     )
