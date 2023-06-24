@@ -17,11 +17,11 @@ function Contact() {
                         <img className="icon-img" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="image of github logo" />
                     </a>         
 
-                    <a href="https://github.com/PkTheCoda">
+                    <a href="https://www.linkedin.com/in/pranav-konjeti-0ba48a25b/">
                     <img className="icon-img" src="https://logodix.com/logo/79688.ico" alt="image of linkedin logo" />
                     </a>   
 
-                    <a href="https://github.com/PkTheCoda">
+                    <a href="mailto:pranavkonjeti@gmail.com">
                         <img className="icon-img" src="https://static.vecteezy.com/system/resources/previews/020/169/233/original/envelope-icon-email-or-incoming-message-mail-icon-for-web-computer-and-mobile-app-message-envelope-line-art-icon-for-apps-and-websites-free-vector.jpg" alt="email icon" />
                     </a>                             
                 </div>                        
