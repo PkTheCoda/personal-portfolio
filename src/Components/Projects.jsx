@@ -89,16 +89,16 @@ function Projects() {
                         <div className="project-summary-holder">
                             <div className="projects-summary-title">Summary</div>
                             <div className="projects-summary-text">
-                                <span className="tc">Urban Escape</span> is a mock front-end furniture store built primarily with  
-                                <span className="tc"> React, React Router, and CSS</span>. The website uses Firebase as a back-end allowing
-                                users to sign in and save their preferences/data. The store allows users to browse, add, and remove items
-                                from their cart. 
+                                <span className="tc">Memory</span> is a simple game built with primarily ReactJS along with a bit of   
+                                <span className="tc"> HTML and CSS</span>. The website mimics a classic memory game where the goal is to
+                                click as many cards as possible without clicking the same card. The app keeps control of your current score 
+                                along with your highscore. Data is taken from <span className="tc">PokeAPI</span>
                             </div>
                         </div>
 
                         <div className="builtwith-holder">
                             Technologies Used
-                            <div className="builtwith-technologies">HTML, CSS, JS, ReactJS, React Router, Firebase</div>
+                            <div className="builtwith-technologies">HTML, CSS, JS, ReactJS</div>
                         </div>
 
                         <div className="project-buttons-holder">
@@ -123,16 +123,15 @@ function Projects() {
                         <div className="project-summary-holder">
                             <div className="projects-summary-title">Summary</div>
                             <div className="projects-summary-text">
-                                <span className="tc">Urban Escape</span> is a mock front-end furniture store built primarily with  
-                                <span className="tc"> React, React Router, and CSS</span>. The website uses Firebase as a back-end allowing
-                                users to sign in and save their preferences/data. The store allows users to browse, add, and remove items
-                                from their cart. 
+                                <span className="tc">Resume Generator</span> is a simple application that generates and creates a resume based  
+                                off of information given through the site. The website shows the live resume preview as you enter in data and 
+                                allows users to add in multiple job experiences, personal information, education, and much more.
                             </div>
                         </div>
 
                         <div className="builtwith-holder">
                             Technologies Used
-                            <div className="builtwith-technologies">HTML, CSS, JS, ReactJS, React Router, Firebase</div>
+                            <div className="builtwith-technologies">HTML, CSS, JS, ReactJS</div>
                         </div>
 
                         <div className="project-buttons-holder">
