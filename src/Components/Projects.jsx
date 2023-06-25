@@ -133,7 +133,8 @@ function Projects() {
                             <div className="projects-summary-text">
                                 <span className="tc">Resume Generator</span> is a simple application that generates and creates a resume based  
                                 off of information given through the site. The website shows the live resume preview as you enter in data and 
-                                allows users to add in multiple job experiences, personal information, education, and much more.
+                                allows users to add in multiple job experiences, personal information, education, and much more. It was made with 
+                                <span className="tc"> HTML, CSS, and ReactJS.</span>
                             </div>
                         </div>
 
@@ -156,7 +157,7 @@ function Projects() {
             </section>
             
             <div className="end-project-holder">
-                    <h1 className="end-project-title"><span className="projects-checkpoint">05</span> Oh, and don't forget this entire site - handcoded by me!</h1>
+                    <h1 className="end-project-title"><span className="projects-checkpoint">05</span> And don't forget this site aswell - coded by me!</h1>
                     <button className="project-repo pbutton hover-underline-animation">
                                 <a href="https://github.com/PkTheCoda/personal-portfolio" target="_blank" className="website-repo">View its Code <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
                     </button>

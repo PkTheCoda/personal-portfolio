@@ -251,6 +251,9 @@ a {
   font-size:calc(10px + 2vw);
   font-family:var(--primary-font);
   text-align: center;
+  border-top: 1px solid rgb(255, 183, 3);
+  padding-top:1em;
+  margin: 0em 2em 0em 2em;
 }
 
 .skills-holder {
@@ -348,9 +351,11 @@ a {
   color:white;
   font-size:calc(10px + 2vw);
   font-family:var(--primary-font);
-  width:100%;
-  padding: 1em 0em 1em 0em;
   text-align: center;
+  border-top: 1px solid rgb(255, 183, 3);
+  padding-top:1em;
+  margin:0em 2em 0em 2em;
+
 
 }
 
@@ -386,6 +391,7 @@ a {
 .project-image-holder > img {
   width:100%;
   box-shadow:0px 0px 20px -3px white;
+  border-radius:10px;
 }
 
 .project-img-title {
@@ -446,7 +452,7 @@ a {
   background-color: transparent;
   border:none;
   color:white;
-  font-size: 1.5vw;
+  font-size: clamp(15px, 1.5vw, 2vw);
   text-shadow: 0px 0px 10px white;
 }
 
@@ -470,6 +476,7 @@ a {
   border:none;
   color:white;
   font-size: 3vw;
+  max-width:100%;
 }
 
 @media (max-width: 800px) {
@@ -525,6 +532,10 @@ a {
     width:100%;
     
   }
+
+  .project-buttons-holder {
+    width:40%;
+  }
 }
 
 .contact--wrapper {
@@ -534,7 +545,7 @@ a {
   align-items: center;
   flex-direction: column;
   gap:1em;
-  padding-bottom:5em;
+  padding: 0em 0em 5em 0em;
 }
 
 .contact-title-text {
@@ -542,6 +553,7 @@ a {
   text-align:center;
   width:50%;
   font-family: var(--primary-font);
+  padding-top:1em;  
 }
 
 .image-icon-items {
