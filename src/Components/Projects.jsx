@@ -1,5 +1,6 @@
 import React from "react";
 import project1 from '../../src/Components/images/project1.png'
+import project2 from '../../src/Components/images/talem-project.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 
@@ -8,10 +9,49 @@ function Projects() {
         <>
             <h1 className="projects--title"> <span className="checkpoint-num">03</span> My <span className="tc">Projects</span></h1>
             <section className="projects--wrapper" id="projects">
-                <div className="project1-holder">
+
+            <div className="project1-holder">
+
+                <div className="project-image-holder">
+                    <div className="project-titles">
+                        <h1 className="project-img-title"><span className="projects-checkpoint">01</span> Talem - Extracurriculars</h1>
+                        <h1 className="project-img-subtitle">Extracurricular/Internship Finder</h1>
+                    </div>
+                    <img src={project2} alt="Image of my first project" />
+                </div>
+
+                <div className="project-details-holder">
+                    <div className="project-summary-holder">
+                        <div className="projects-summary-title">Summary</div>
+                        <div className="projects-summary-text">
+                            <span className="tc">Talem</span> is a a state-of-the-art website that allows highschoolers to find the perfect
+                            extracurriculars and internships for <span className="tc">them.</span> Talem has a massive database of internships and 
+                            extracurriculars and allows users to filter through them with over 15 different filtering options. The website has a 
+                            full integrated backend and beautiful frontend made with
+                            <span className="tc"> TailwindCSS</span>
+                        </div>
+                    </div>
+
+                    <div className="builtwith-holder">
+                        Technologies Used
+                        <div className="builtwith-technologies">HTML, CSS, JS, ReactJS, Firebase, React Router, TailwindCSS, shadcn, Radix UI</div>
+                    </div>
+
+                    <div className="project-buttons-holder">
+                        <button className="project-live pbutton hover-underline-animation">
+                            <a href="https://talem.vercel.app/" target="_blank">Live Preview <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+                        </button>
+                        <button className="project-repo pbutton hover-underline-animation">
+                            <a href="https://github.com/PkTheCoda/talem-app" target="_blank">View Code <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+                <div className="project2-holder">
                     <div className="project-image-holder">
                         <div className="project-titles">
-                            <h1 className="project-img-title"><span className="projects-checkpoint">01</span> learntheweb.org</h1>
+                            <h1 className="project-img-title"><span className="projects-checkpoint">02</span> learntheweb.org</h1>
                             <h1 className="project-img-subtitle">Online Computer Science Nonprofit</h1>
                         </div>
                         <img src={project1} alt="Image of my first project" />
@@ -40,11 +80,11 @@ function Projects() {
 
                 </div>
 
-                <div className="project2-holder">
+                <div className="project3-holder">
 
                     <div className="project-image-holder">
                         <div className="project-titles">
-                            <h1 className="project-img-title"><span className="projects-checkpoint">02</span> Urban Escape</h1>
+                            <h1 className="project-img-title"><span className="projects-checkpoint">03</span> Urban Escape</h1>
                             <h1 className="project-img-subtitle">Mock Ecommerce Platform</h1>
                         </div>
                         <img src="https://user-images.githubusercontent.com/107774675/247635446-8786607a-6ebf-4d9b-9284-b1e6b67a0bdf.png" alt="Image of my first project" />
@@ -79,11 +119,11 @@ function Projects() {
 
                 </div>
 
-                <div className="project3-holder">
+                <div className="project4-holder">
 
                     <div className="project-image-holder">
                         <div className="project-titles">
-                            <h1 className="project-img-title"><span className="projects-checkpoint">03</span> Memory Game</h1>
+                            <h1 className="project-img-title"><span className="projects-checkpoint">04</span> Memory Game</h1>
                             <h1 className="project-img-subtitle">Simple Front-end Memory Game</h1>
                         </div>
                         <img src="https://user-images.githubusercontent.com/107774675/248482996-6cc87a26-5d6a-4ed5-af71-78800edbf00b.png" alt="Image of my first project" />
@@ -115,43 +155,6 @@ function Projects() {
                         </div>
                     </div>
 
-                </div>
-
-                <div className="project4-holder">
-
-                    <div className="project-image-holder">
-                        <div className="project-titles">
-                            <h1 className="project-img-title"><span className="projects-checkpoint">04</span> Resume Maker</h1>
-                            <h1 className="project-img-subtitle">Front-end Resume Generator</h1>
-                        </div>
-                        <img src="https://user-images.githubusercontent.com/107774675/246527940-26c9d3d5-2c08-4dbc-b51c-0146b1293f84.png" alt="Image of my first project" />
-                    </div>
-
-                    <div className="project-details-holder">
-                        <div className="project-summary-holder">
-                            <div className="projects-summary-title">Summary</div>
-                            <div className="projects-summary-text">
-                                <span className="tc">Resume Generator</span> is a simple application that generates and creates a resume based  
-                                off of information given through the site. The website shows the live resume preview as you enter in data and 
-                                allows users to add in multiple job experiences, personal information, education, and much more. It was made with 
-                                <span className="tc"> HTML, CSS, and ReactJS.</span>
-                            </div>
-                        </div>
-
-                        <div className="builtwith-holder">
-                            Technologies Used
-                            <div className="builtwith-technologies">HTML, CSS, JS, ReactJS</div>
-                        </div>
-
-                        <div className="project-buttons-holder">
-                            <button className="project-live pbutton hover-underline-animation">
-                                <a href="https://stackblitz-starters-poqhpv.stackblitz.io/">Live Preview <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
-                            </button>
-                            <button className="project-repo pbutton hover-underline-animation">
-                                <a href="https://github.com/PkTheCoda/resume-maker">View Code <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
-                            </button>
-                        </div>
-                    </div>
                 </div>
 
             </section>
