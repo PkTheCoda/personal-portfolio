@@ -66,6 +66,11 @@ function Skills() {
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />          
                             <p className="image-subtitle">Redux</p>
                         </div> 
+
+                        <div className="image-items">                         
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" />
+                            <p className="image-subtitle">TailwindCSS</p>
+                        </div> 
                     </div>
 
                 </div>
