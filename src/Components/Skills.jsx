@@ -102,7 +102,7 @@ function Skills() {
 
                         <div className="image-items">                        
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" /> 
-                            <p className="image-subtitle">NPM</p>
+                            <p className="image-subtitle">npm</p>
                         </div>     
 
                         <div className="image-items">                        
