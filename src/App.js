@@ -17,7 +17,7 @@ function App() {
       <Contact />
       <Footer />
       <Analytics /> */}
-      <h1>Hi there! This website is currently down due to privacy concerns. We apologize for any inconvenience!</h1>
+      <h1 className='main-h1'>Hi there! This website is currently down due to privacy concerns. We apologize for any inconvenience!</h1>
     </>
   );
 }
