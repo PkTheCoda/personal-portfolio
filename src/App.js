@@ -10,13 +10,14 @@ import { Analytics } from '@vercel/analytics/react'
 function App() {
   return (
     <>
-      <Introduction />
+      {/* <Introduction />
       <About />
       <Skills />
       <Projects />
       <Contact />
       <Footer />
-      <Analytics />
+      <Analytics /> */}
+      <h1>Hi there! This website is currently down due to privacy concerns. We apologize for any inconvenience!</h1>
     </>
   );
 }
