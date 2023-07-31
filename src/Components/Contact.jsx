@@ -15,15 +15,15 @@ function Contact() {
                 <div className="image-icon-items"> 
                     <a href="https://github.com/PkTheCoda" target="_blank">
                         <img className="icon-img" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="image of github logo" />
-                    </a>         
-
-                    <a href="https://www.linkedin.com/in/pranav-konjeti-0ba48a25b/" target="_blank">
-                    <img className="icon-img" src="https://logodix.com/logo/79688.ico" alt="image of linkedin logo" />
-                    </a>   
+                    </a>          
 
                     <a href="mailto:pranavkonjeti@gmail.com" target="_blank">
                         <img className="icon-img" src="https://static.vecteezy.com/system/resources/previews/020/169/233/original/envelope-icon-email-or-incoming-message-mail-icon-for-web-computer-and-mobile-app-message-envelope-line-art-icon-for-apps-and-websites-free-vector.jpg" alt="email icon" />
-                    </a>                             
+                    </a>
+
+                    <a href="mailto:pranavkonjeti@gmail.com" target="_blank">
+                        <img className="icon-img" src="https://uploads-ssl.webflow.com/5c14e387dab576fe667689cf/61e1116779fc0a9bd5bdbcc7_Frame%206.png" alt="ko-fi icon" />
+                    </a>                                
                 </div>                        
             </section>
         </>
