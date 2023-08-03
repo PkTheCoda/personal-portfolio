@@ -24,9 +24,6 @@ function About() {
 
                     Outside of web development, you can find me playing volleyball, going on long runs, and hanging out 
                     with my friends!
-                    <br />
-                    <br />
-                    The picture of me has been removed btw since I almost got doxxed with my old one 🤷‍♂️
                 </p>
 
 
