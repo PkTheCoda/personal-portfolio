@@ -57,3 +57,22 @@ code {
   0% { opacity: 0; display:none; }
   100% { opacity: 1; display:block; }
 }
+
+.alert-box {
+  background-color: #FFD700; /* Yellow background color for the alert */
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.alert-box a {
+  color: #007BFF; /* Blue color for the link */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.alert-box a:hover {
+  text-decoration: underline;
+}
+

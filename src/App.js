@@ -5,13 +5,11 @@ import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
-import NewPortfolioBanner from './Components/NewPortfolioBanner';
 import { Analytics } from '@vercel/analytics/react'
 
 function App() {
   return (
     <>
-      <NewPortfolioBanner />
       <Introduction />
       <About />
       <Skills />
