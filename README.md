@@ -1,4 +1,5 @@
-# Pranav's Personal Portfolio
+# Pranav's Personal Portfolio 
+# [EDIT: This portfolio is outdated.] My new one is here: pranavk.vercel.app
 <h1><a href="https://pranavk.vercel.app" target="_blank">My Portfolio Live</a></h1>
 
 Some nice pictures of it incase you're not able to open the actual site:
